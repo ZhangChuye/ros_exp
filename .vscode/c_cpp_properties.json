@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/tingxfan/nav_ws/devel/include/**",
+        "/home/tingxfan/slam_ws/devel/include/**",
+        "/home/tingxfan/dev_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/tingxfan/dev_ws/src/dynamic_filter/include/**",
+        "/home/tingxfan/slam_ws/src/FAST_LIO/include/**",
+        "/home/tingxfan/dev_ws/src/ugv_gazebo_sim/ranger/four_wheel_steering_controller/include/**",
+        "/home/tingxfan/dev_ws/src/ugv_gazebo_sim/limo/limo_gazebo_sim/include/**",
+        "/home/tingxfan/dev_ws/src/precision-tracking/include/**",
+        "/home/tingxfan/dev_ws/src/ugv_gazebo_sim/scout/scout_gazebo_sim/include/**",
+        "/home/tingxfan/dev_ws/src/ugv_gazebo_sim/hunter/steer_bot_hardware_gazebo/include/**",
+        "/home/tingxfan/dev_ws/src/ugv_gazebo_sim/hunter/steer_drive_controller/include/**",
+        "/home/tingxfan/dev_ws/src/ugv_gazebo_sim/tracer/tracer_gazebo_sim/include/**",
+        "/home/tingxfan/dev_ws/src/traversability_analysis/include/**",
+        "/home/tingxfan/dev_ws/src/urban_navigator/include/**",
+        "/home/tingxfan/dev_ws/src/ugv_gazebo_sim/ranger/urdf_geometry_parser/include/**",
+        "/home/tingxfan/slam_ws/src/velodyne/velodyne_driver/include/**",
+        "/home/tingxfan/long_range_simulation/src/velodyne_simulator/velodyne_gazebo_plugins/include/**",
+        "/home/tingxfan/slam_ws/src/velodyne/velodyne_laserscan/include/**",
+        "/home/tingxfan/slam_ws/src/velodyne/velodyne_pointcloud/include/**",
+        "/home/tingxfan/long_range_simulation/src/waypoint_rviz_plugin/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

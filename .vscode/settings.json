@@ -1,0 +1,14 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/tingxfan/nav_ws/devel/lib/python3/dist-packages",
+        "/home/tingxfan/slam_ws/devel/lib/python3/dist-packages",
+        "/home/tingxfan/dev_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/tingxfan/nav_ws/devel/lib/python3/dist-packages",
+        "/home/tingxfan/slam_ws/devel/lib/python3/dist-packages",
+        "/home/tingxfan/dev_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
