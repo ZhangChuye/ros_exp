@@ -1,2 +1,2 @@
-hello_world
+get_pcd:hello_world
 -DCATKIN_DEVEL_PREFIX=/home/tingxfan/ros_exp/devel -DCMAKE_INSTALL_PREFIX=/home/tingxfan/ros_exp/install -G Unix Makefiles
