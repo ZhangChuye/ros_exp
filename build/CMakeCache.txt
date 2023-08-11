@@ -337,7 +337,10 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Path to a program.
-DOXYGEN_EXECUTABLE:FILEPATH=DOXYGEN_EXECUTABLE-NOTFOUND
+DOXYGEN_EXECUTABLE:FILEPATH=/usr/bin/doxygen
+
+//Doxygen found
+DOXYGEN_FOUND:BOOL=TRUE
 
 //Path to a file.
 EIGEN_INCLUDE_DIR:PATH=/usr/include/eigen3
@@ -661,6 +664,36 @@ actionlib_DIR:PATH=/opt/ros/noetic/share/actionlib/cmake
 //The directory containing a CMake configuration file for actionlib_msgs.
 actionlib_msgs_DIR:PATH=/opt/ros/noetic/share/actionlib_msgs/cmake
 
+//Value Computed by CMake
+arbotix_BINARY_DIR:STATIC=/home/tingxfan/ros_exp/build/arbotix_ros/arbotix
+
+//Value Computed by CMake
+arbotix_SOURCE_DIR:STATIC=/home/tingxfan/ros_exp/src/arbotix_ros/arbotix
+
+//Value Computed by CMake
+arbotix_firmware_BINARY_DIR:STATIC=/home/tingxfan/ros_exp/build/arbotix_ros/arbotix_firmware
+
+//Value Computed by CMake
+arbotix_firmware_SOURCE_DIR:STATIC=/home/tingxfan/ros_exp/src/arbotix_ros/arbotix_firmware
+
+//Value Computed by CMake
+arbotix_msgs_BINARY_DIR:STATIC=/home/tingxfan/ros_exp/build/arbotix_ros/arbotix_msgs
+
+//Value Computed by CMake
+arbotix_msgs_SOURCE_DIR:STATIC=/home/tingxfan/ros_exp/src/arbotix_ros/arbotix_msgs
+
+//Value Computed by CMake
+arbotix_python_BINARY_DIR:STATIC=/home/tingxfan/ros_exp/build/arbotix_ros/arbotix_python
+
+//Value Computed by CMake
+arbotix_python_SOURCE_DIR:STATIC=/home/tingxfan/ros_exp/src/arbotix_ros/arbotix_python
+
+//Value Computed by CMake
+arbotix_sensors_BINARY_DIR:STATIC=/home/tingxfan/ros_exp/build/arbotix_ros/arbotix_sensors
+
+//Value Computed by CMake
+arbotix_sensors_SOURCE_DIR:STATIC=/home/tingxfan/ros_exp/src/arbotix_ros/arbotix_sensors
+
 //The directory containing a CMake configuration file for bond.
 bond_DIR:PATH=/opt/ros/noetic/share/bond/cmake
 
@@ -773,6 +806,9 @@ image_transport_DIR:PATH=/opt/ros/noetic/share/image_transport/cmake
 //The directory containing a CMake configuration file for interactive_markers.
 interactive_markers_DIR:PATH=/opt/ros/noetic/share/interactive_markers/cmake
 
+//The directory containing a CMake configuration file for joy.
+joy_DIR:PATH=/home/tingxfan/long_range_simulation/devel/share/joy/cmake
+
 //The directory containing a CMake configuration file for jsk_footstep_msgs.
 jsk_footstep_msgs_DIR:PATH=/opt/ros/noetic/share/jsk_footstep_msgs/cmake
 
@@ -781,6 +817,12 @@ jsk_recognition_msgs_DIR:PATH=/opt/ros/noetic/share/jsk_recognition_msgs/cmake
 
 //The directory containing a CMake configuration file for kdl_conversions.
 kdl_conversions_DIR:PATH=/opt/ros/noetic/share/kdl_conversions/cmake
+
+//Value Computed by CMake
+learning_joy_BINARY_DIR:STATIC=/home/tingxfan/ros_exp/build/learning_joy
+
+//Value Computed by CMake
+learning_joy_SOURCE_DIR:STATIC=/home/tingxfan/ros_exp/src/learning_joy
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
@@ -887,6 +929,12 @@ std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
 //The directory containing a CMake configuration file for std_srvs.
 std_srvs_DIR:PATH=/opt/ros/noetic/share/std_srvs/cmake
 
+//Value Computed by CMake
+study_simulation_BINARY_DIR:STATIC=/home/tingxfan/ros_exp/build/study_simulation
+
+//Value Computed by CMake
+study_simulation_SOURCE_DIR:STATIC=/home/tingxfan/ros_exp/src/study_simulation
+
 //The directory containing a CMake configuration file for tf2.
 tf2_DIR:PATH=/opt/ros/noetic/share/tf2/cmake
 
@@ -913,6 +961,9 @@ tf_conversions_DIR:PATH=/opt/ros/noetic/share/tf_conversions/cmake
 
 //The directory containing a CMake configuration file for topic_tools.
 topic_tools_DIR:PATH=/opt/ros/noetic/share/topic_tools/cmake
+
+//The directory containing a CMake configuration file for turtlesim.
+turtlesim_DIR:PATH=/opt/ros/noetic/share/turtlesim/cmake
 
 //The directory containing a CMake configuration file for visualization_msgs.
 visualization_msgs_DIR:PATH=/opt/ros/noetic/share/visualization_msgs/cmake
@@ -1094,7 +1145,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
