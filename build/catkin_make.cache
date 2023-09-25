@@ -1,2 +1,0 @@
-arbotix_ros/arbotix:arbotix_ros/arbotix_firmware:arbotix_ros/arbotix_msgs:arbotix_ros/arbotix_python:arbotix_ros/arbotix_sensors:get_pcd:hello_world:learning_joy:study_simulation
--DCATKIN_DEVEL_PREFIX=/home/tingxfan/ros_exp/devel -DCMAKE_INSTALL_PREFIX=/home/tingxfan/ros_exp/install -G Unix Makefiles
