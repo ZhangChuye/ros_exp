@@ -1,0 +1,22 @@
+<launch>
+    <!-- 将 Urdf 文件的内容加载到参数服务器 -->
+    <param name="robot_description" command="$(find xacro)/xacro $(find study_simulation)/urdf/xacro/my_base_camera_laser.urdf.xacro" />
+    <!-- 启动 gazebo -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(find study_simulation)/worlds/turtle_sim.world" />
+    </include>
+
+    <!-- <node pkg="tf2_ros" type="static_transform_publisher" name="static_transform_publisher" args="0 0 0 -1.57 0 -1.57 /support /support_depth" /> -->
+
+    
+    <node pkg="gazebo_ros" type="spawn_model" name="model" args="-urdf -model mycar -param robot_description"  />
+    <!-- 启动 rivz
+    <node pkg="rviz" type="rviz" name="rviz_test" args="-d $(find study_simulation)/config/helloworld.rviz" />
+    <node pkg="tf2_ros" type="static_transform_publisher" name="static_transform_publisher" args="0 0 0 -1.57 0 -1.57 /support /support_depth" />
+
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher" /> -->
+
+
+</launch>

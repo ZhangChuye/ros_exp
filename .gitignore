@@ -2,3 +2,6 @@ build
 devel
 src/arbotix_ros
 src/get_pcd
+.catkin_tools
+logs
+.gitignore
