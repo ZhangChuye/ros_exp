@@ -139,6 +139,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/tingxfan/ros_exp/build/get_pcd/cmake_install.cmake")
   include("/home/tingxfan/ros_exp/build/hello_world/cmake_install.cmake")
   include("/home/tingxfan/ros_exp/build/study_simulation/cmake_install.cmake")
+  include("/home/tingxfan/ros_exp/build/rvo_ros/cmake_install.cmake")
   include("/home/tingxfan/ros_exp/build/learning_joy/cmake_install.cmake")
 
 endif()

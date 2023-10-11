@@ -7,5 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export PATH='/home/tingxfan/ros_exp/devel/bin:/opt/ros/noetic/bin:/home/tingxfan/anaconda3/bin:/home/tingxfan/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+export PATH='/home/tingxfan/ros_exp/devel/bin:/opt/ros/noetic/bin:/home/tingxfan/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
 export PWD='/home/tingxfan/ros_exp/build'

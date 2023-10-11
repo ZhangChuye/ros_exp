@@ -3,6 +3,6 @@ prefix=/home/tingxfan/ros_exp/devel
 Name: hello_world
 Description: Description of hello_world
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/tingxfan/ros_exp/devel/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: roscpp rospy std_msgs message_runtime

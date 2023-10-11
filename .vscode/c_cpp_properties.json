@@ -27,6 +27,7 @@
         "/home/tingxfan/slam_ws/src/velodyne/velodyne_laserscan/include/**",
         "/home/tingxfan/slam_ws/src/velodyne/velodyne_pointcloud/include/**",
         "/home/tingxfan/long_range_simulation/src/waypoint_rviz_plugin/include/**",
+        "/home/tingxfan/ros_exp/devel/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",
