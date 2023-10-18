@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
-<robot name="macroed" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="gazebo1" xmlns:xacro="http://ros.org/wiki/xacro">
 
-  <!-- define variables -->
   <xacro:property name="width" value="0.2" />
   <xacro:property name="leglen" value="0.6" />
   <xacro:property name="polelen" value="0.2" />
@@ -235,5 +234,12 @@
     <child link="box"/>
     <origin xyz="${.707*width+0.04} 0 ${.707*width}"/>
   </joint>
+
+  <!-- Gazebo plugin for ROS Control -->
+  <gazebo>
+    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+      <robotNamespace>/</robotNamespace>
+    </plugin>
+  </gazebo>
 
 </robot>
