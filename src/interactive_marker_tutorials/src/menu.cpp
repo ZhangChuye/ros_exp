@@ -47,6 +47,8 @@ float marker_pos = 0;
 MenuHandler menu_handler;
 
 MenuHandler::EntryHandle h_first_entry;
+MenuHandler::EntryHandle h_second_entry;
+
 MenuHandler::EntryHandle h_mode_last;
 
 
@@ -148,13 +150,42 @@ void deepCb( const visualization_msgs::InteractiveMarkerFeedbackConstPtr &feedba
 void initMenu()
 {
   h_first_entry = menu_handler.insert( "First Entry" );
-  MenuHandler::EntryHandle entry = menu_handler.insert( h_first_entry, "deep" );
-  entry = menu_handler.insert( entry, "sub" );
-  entry = menu_handler.insert( entry, "menu", &deepCb );
+  MenuHandler::EntryHandle entry1 = menu_handler.insert( h_first_entry, "deep" );
+  MenuHandler::EntryHandle entry11 = menu_handler.insert( h_first_entry, "deep" );
+  MenuHandler::EntryHandle entry12 = menu_handler.insert( h_first_entry, "deep" );
+  MenuHandler::EntryHandle entry13 = menu_handler.insert( h_first_entry, "deep" );
+  MenuHandler::EntryHandle entry14 = menu_handler.insert( h_first_entry, "deep" );
+
+  MenuHandler::EntryHandle entry22 = menu_handler.insert( h_first_entry, "deep" );
+  MenuHandler::EntryHandle entry221 = menu_handler.insert( h_first_entry, "deep" );
+  MenuHandler::EntryHandle entry222 = menu_handler.insert( h_first_entry, "deep" );
+  MenuHandler::EntryHandle entry223 = menu_handler.insert( h_first_entry, "deep" );
+  MenuHandler::EntryHandle entry224 = menu_handler.insert( h_first_entry, "deep" );
+
+  entry1 = menu_handler.insert( entry1, "sub" );
+  entry11 = menu_handler.insert( entry11, "menu", &deepCb );
+  entry12 = menu_handler.insert( entry12, "menu", &deepCb );
+  entry13 = menu_handler.insert( entry13, "menu", &deepCb );
+  entry14 = menu_handler.insert( entry14, "menu", &deepCb );
+
+  entry22 = menu_handler.insert( entry22, "sub" );
+  entry221 = menu_handler.insert( entry221, "menu", &deepCb );
+  entry222 = menu_handler.insert( entry222, "menu", &deepCb );
+  entry223 = menu_handler.insert( entry223, "menu", &deepCb );
+  entry224 = menu_handler.insert( entry224, "menu", &deepCb );
+
+
+  h_second_entry = menu_handler.insert( "Second Entry" );
+  MenuHandler::EntryHandle entry2 = menu_handler.insert( h_second_entry, "deep" );
+  entry2 = menu_handler.insert( entry2, "sub" );
+  entry2 = menu_handler.insert( entry2, "menu", &deepCb );
+
   
   menu_handler.setCheckState( menu_handler.insert( "Show First Entry", &enableCb ), MenuHandler::CHECKED );
+  menu_handler.setCheckState( menu_handler.insert( "Show second Entry", &enableCb ), MenuHandler::CHECKED );
 
-  MenuHandler::EntryHandle sub_menu_handle = menu_handler.insert( "Switch" );
+  MenuHandler::EntryHandle sub_menu_handle = menu_handler.insert( "Switch0" );
+  // MenuHandler::EntryHandle sub_menu_handle = menu_handler.insert( "Switch1" );
 
   for ( int i=0; i<5; i++ )
   {
