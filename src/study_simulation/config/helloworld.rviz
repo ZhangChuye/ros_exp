@@ -15,9 +15,9 @@ Panels:
         - /TF1/Tree1
         - /Camera1
         - /Camera1/Visibility1
+        - /LaserScan1
         - /Camera2
         - /PointCloud21
-        - /PointCloud21/Status1
         - /Camera3
       Splitter Ratio: 0.5008547306060791
     Tree Height: 440
@@ -257,7 +257,7 @@ Visualization Manager:
       Queue Size: 10
       Selectable: true
       Size (Pixels): 3
-      Size (m): 0.009999999776482582
+      Size (m): 0.10000000149011612
       Style: Flat Squares
       Topic: /scan
       Unreliable: false
@@ -360,7 +360,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 3.5464773178100586
+      Distance: 15.89484691619873
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -368,17 +368,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 0.001676696352660656
-        Y: -0.16569013893604279
-        Z: 0.48072171211242676
+        X: 0.09550198912620544
+        Y: -0.0004119363147765398
+        Z: 0.2941255271434784
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.5897976160049438
+      Pitch: 0.6697976589202881
       Target Frame: <Fixed Frame>
-      Yaw: 4.5135884284973145
+      Yaw: 4.873576641082764
     Saved: ~
 Window Geometry:
   Camera:
